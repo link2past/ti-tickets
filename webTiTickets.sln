@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webTiTickets", "webTiTickets\webTiTickets.csproj", "{C081733C-E573-4D0E-BC8E-9DF060807D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIAccesoDatos", "TIAccesoDatos\TIAccesoDatos.csproj", "{DDDC5DBC-604C-4C9A-9FEB-26D93004DAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIBDUtil", "TIBDUtil\TIBDUtil.csproj", "{CAF41E2C-0061-4E5A-B006-946AF5C4713E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIEntidades", "TIEntidades\TIEntidades.csproj", "{67F26E3E-5A4F-4E6F-B881-452ECD2D1383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIInterfaces", "TIInterfaces\TIInterfaces.csproj", "{0A47C392-2EF4-4E2C-8624-5C6018C2EB9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TILogicaNegocio", "TILogicaNegocio\TILogicaNegocio.csproj", "{FF9D0788-50A0-462E-A5F9-4B6F9C74B52C}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C081733C-E573-4D0E-BC8E-9DF060807D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C081733C-E573-4D0E-BC8E-9DF060807D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C081733C-E573-4D0E-BC8E-9DF060807D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C081733C-E573-4D0E-BC8E-9DF060807D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDC5DBC-604C-4C9A-9FEB-26D93004DAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDC5DBC-604C-4C9A-9FEB-26D93004DAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDC5DBC-604C-4C9A-9FEB-26D93004DAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDC5DBC-604C-4C9A-9FEB-26D93004DAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF41E2C-0061-4E5A-B006-946AF5C4713E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF41E2C-0061-4E5A-B006-946AF5C4713E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF41E2C-0061-4E5A-B006-946AF5C4713E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF41E2C-0061-4E5A-B006-946AF5C4713E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F26E3E-5A4F-4E6F-B881-452ECD2D1383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F26E3E-5A4F-4E6F-B881-452ECD2D1383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F26E3E-5A4F-4E6F-B881-452ECD2D1383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F26E3E-5A4F-4E6F-B881-452ECD2D1383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A47C392-2EF4-4E2C-8624-5C6018C2EB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A47C392-2EF4-4E2C-8624-5C6018C2EB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A47C392-2EF4-4E2C-8624-5C6018C2EB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A47C392-2EF4-4E2C-8624-5C6018C2EB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9D0788-50A0-462E-A5F9-4B6F9C74B52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9D0788-50A0-462E-A5F9-4B6F9C74B52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9D0788-50A0-462E-A5F9-4B6F9C74B52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9D0788-50A0-462E-A5F9-4B6F9C74B52C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

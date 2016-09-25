@@ -1,0 +1,7 @@
+D:\Data-Omar\DESARROLLO\webTiTickets\TIInterfaces\bin\Debug\TIInterfaces.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\TIInterfaces\bin\Debug\TIInterfaces.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\TIInterfaces\bin\Debug\TIEntidades.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\TIInterfaces\bin\Debug\TIEntidades.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\TIInterfaces\obj\Debug\TIInterfaces.csprojResolveAssemblyReference.cache
+D:\Data-Omar\DESARROLLO\webTiTickets\TIInterfaces\obj\Debug\TIInterfaces.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\TIInterfaces\obj\Debug\TIInterfaces.pdb

@@ -1,0 +1,17 @@
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\webTiTickets.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\webTiTickets.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIEntidades.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TILogicaNegocio.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIInterfaces.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIAccesoDatos.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIBDUtil.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIEntidades.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TILogicaNegocio.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIInterfaces.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIAccesoDatos.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\bin\TIBDUtil.pdb
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\obj\Debug\webTiTickets.csprojResolveAssemblyReference.cache
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\obj\Debug\RdlCompile.cache
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\obj\Debug\RdlCompile.compiled
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\obj\Debug\webTiTickets.dll
+D:\Data-Omar\DESARROLLO\webTiTickets\webTiTickets\obj\Debug\webTiTickets.pdb

@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C081733C-E573-4D0E-BC8E-9DF060807D74}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>webTiTickets</RootNamespace>
+    <AssemblyName>webTiTickets</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\css\datepicker.css" />
+    <Content Include="bootstrap\css\docs.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\img\bootstrap-docs-readme.png" />
+    <Content Include="bootstrap\img\bootstrap-mdo-sfmoma-01.jpg" />
+    <Content Include="bootstrap\img\bootstrap-mdo-sfmoma-02.jpg" />
+    <Content Include="bootstrap\img\bootstrap-mdo-sfmoma-03.jpg" />
+    <Content Include="bootstrap\img\bs-docs-bootstrap-features.png" />
+    <Content Include="bootstrap\img\bs-docs-masthead-pattern.png" />
+    <Content Include="bootstrap\img\bs-docs-responsive-illustrations.png" />
+    <Content Include="bootstrap\img\bs-docs-twitter-github.png" />
+    <Content Include="bootstrap\img\example-sites\8020select.png" />
+    <Content Include="bootstrap\img\example-sites\adoptahydrant.png" />
+    <Content Include="bootstrap\img\example-sites\breakingnews.png" />
+    <Content Include="bootstrap\img\example-sites\fleetio.png" />
+    <Content Include="bootstrap\img\example-sites\gathercontent.png" />
+    <Content Include="bootstrap\img\example-sites\jshint.png" />
+    <Content Include="bootstrap\img\example-sites\kippt.png" />
+    <Content Include="bootstrap\img\example-sites\soundready.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-carousel.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-fluid.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-justified-nav.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-marketing-narrow.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-marketing.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-signin.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-starter.png" />
+    <Content Include="bootstrap\img\examples\bootstrap-example-sticky-footer.png" />
+    <Content Include="bootstrap\img\examples\browser-icon-chrome.png" />
+    <Content Include="bootstrap\img\examples\browser-icon-firefox.png" />
+    <Content Include="bootstrap\img\examples\browser-icon-safari.png" />
+    <Content Include="bootstrap\img\examples\slide-01.jpg" />
+    <Content Include="bootstrap\img\examples\slide-02.jpg" />
+    <Content Include="bootstrap\img\examples\slide-03.jpg" />
+    <Content Include="bootstrap\img\FondoLogin.png" />
+    <Content Include="bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="bootstrap\img\grid-baseline-20px.png" />
+    <Content Include="bootstrap\img\less-logo-large.png" />
+    <Content Include="bootstrap\img\LogoTI.jpg" />
+    <Content Include="bootstrap\img\pics\cellphones.png" />
+    <Content Include="bootstrap\img\pics\fuel.png" />
+    <Content Include="bootstrap\img\pics\taxi.png" />
+    <Content Include="bootstrap\img\responsive-illustrations.png" />
+    <Content Include="bootstrap\js\bootstrap-datepicker.js" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\bs.pagination.js" />
+    <Content Include="bootstrap\js\jquery-1.11.2.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Login.aspx" />
+    <Content Include="PruebaEnvioMail.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="wfCliente.aspx" />
+    <Content Include="wfListaClientes.aspx" />
+    <Content Include="wfListaRepuestos.aspx" />
+    <Content Include="wfListaTickets.aspx" />
+    <Content Include="wfListaUsuarios.aspx" />
+    <Content Include="wfMantAreaUsuarioSede.aspx" />
+    <Content Include="wfMantCategoria.aspx" />
+    <Content Include="wfMantEstadoTicket.aspx" />
+    <Content Include="wfMantNivelUrgencia.aspx" />
+    <Content Include="wfMantTipoUsuario.aspx" />
+    <Content Include="wfMantUnidadNegocio.aspx" />
+    <Content Include="wfPerfil.aspx" />
+    <Content Include="wfReporteCategorias.aspx" />
+    <Content Include="wfReporteClienteUn.aspx" />
+    <Content Include="wfReporteEstados.aspx" />
+    <Content Include="wfRepuesto.aspx" />
+    <Content Include="wfSedeCliente.aspx" />
+    <Content Include="wfTickets.aspx" />
+    <Content Include="wfUsuario.aspx" />
+    <Content Include="wfUsuarioSede.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebaEnvioMail.aspx.cs">
+      <DependentUpon>PruebaEnvioMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PruebaEnvioMail.aspx.designer.cs">
+      <DependentUpon>PruebaEnvioMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Security.cs" />
+    <Compile Include="Util\Util.cs" />
+    <Compile Include="wfCliente.aspx.cs">
+      <DependentUpon>wfCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfCliente.aspx.designer.cs">
+      <DependentUpon>wfCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfListaClientes.aspx.cs">
+      <DependentUpon>wfListaClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfListaClientes.aspx.designer.cs">
+      <DependentUpon>wfListaClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfListaRepuestos.aspx.cs">
+      <DependentUpon>wfListaRepuestos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfListaRepuestos.aspx.designer.cs">
+      <DependentUpon>wfListaRepuestos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfListaTickets.aspx.cs">
+      <DependentUpon>wfListaTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfListaTickets.aspx.designer.cs">
+      <DependentUpon>wfListaTickets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfListaUsuarios.aspx.cs">
+      <DependentUpon>wfListaUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfListaUsuarios.aspx.designer.cs">
+      <DependentUpon>wfListaUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfMantAreaUsuarioSede.aspx.cs">
+      <DependentUpon>wfMantAreaUsuarioSede.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfMantAreaUsuarioSede.aspx.designer.cs">
+      <DependentUpon>wfMantAreaUsuarioSede.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfMantCategoria.aspx.cs">
+      <DependentUpon>wfMantCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfMantCategoria.aspx.designer.cs">
+      <DependentUpon>wfMantCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfMantEstadoTicket.aspx.cs">
+      <DependentUpon>wfMantEstadoTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfMantEstadoTicket.aspx.designer.cs">
+      <DependentUpon>wfMantEstadoTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfMantNivelUrgencia.aspx.cs">
+      <DependentUpon>wfMantNivelUrgencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfMantNivelUrgencia.aspx.designer.cs">
+      <DependentUpon>wfMantNivelUrgencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfMantTipoUsuario.aspx.cs">
+      <DependentUpon>wfMantTipoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfMantTipoUsuario.aspx.designer.cs">
+      <DependentUpon>wfMantTipoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfMantUnidadNegocio.aspx.cs">
+      <DependentUpon>wfMantUnidadNegocio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfMantUnidadNegocio.aspx.designer.cs">
+      <DependentUpon>wfMantUnidadNegocio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfPerfil.aspx.cs">
+      <DependentUpon>wfPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfPerfil.aspx.designer.cs">
+      <DependentUpon>wfPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfReporteCategorias.aspx.cs">
+      <DependentUpon>wfReporteCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfReporteCategorias.aspx.designer.cs">
+      <DependentUpon>wfReporteCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfReporteClienteUn.aspx.cs">
+      <DependentUpon>wfReporteClienteUn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfReporteClienteUn.aspx.designer.cs">
+      <DependentUpon>wfReporteClienteUn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfReporteEstados.aspx.cs">
+      <DependentUpon>wfReporteEstados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfReporteEstados.aspx.designer.cs">
+      <DependentUpon>wfReporteEstados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfRepuesto.aspx.cs">
+      <DependentUpon>wfRepuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfRepuesto.aspx.designer.cs">
+      <DependentUpon>wfRepuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfSedeCliente.aspx.cs">
+      <DependentUpon>wfSedeCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfSedeCliente.aspx.designer.cs">
+      <DependentUpon>wfSedeCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfTickets.aspx.cs">
+      <DependentUpon>wfTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfTickets.aspx.designer.cs">
+      <DependentUpon>wfTickets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfUsuario.aspx.cs">
+      <DependentUpon>wfUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfUsuario.aspx.designer.cs">
+      <DependentUpon>wfUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfUsuarioSede.aspx.cs">
+      <DependentUpon>wfUsuarioSede.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfUsuarioSede.aspx.designer.cs">
+      <DependentUpon>wfUsuarioSede.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bootstrap\css\bootstrap-theme.css.map" />
+    <None Include="bootstrap\css\bootstrap.css.map" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TIEntidades\TIEntidades.csproj">
+      <Project>{67F26E3E-5A4F-4E6F-B881-452ECD2D1383}</Project>
+      <Name>TIEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TILogicaNegocio\TILogicaNegocio.csproj">
+      <Project>{FF9D0788-50A0-462E-A5F9-4B6F9C74B52C}</Project>
+      <Name>TILogicaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reportes\rptReporteClienteUn.rdlc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>45545</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

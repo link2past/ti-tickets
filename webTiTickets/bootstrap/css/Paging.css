@@ -1,0 +1,45 @@
+﻿.paging
+        {
+        }
+         
+        .paging a
+        {
+  position: relative;
+  float: left;
+  padding: 8px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #2fa4e7;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+        }
+         
+        .paging a:hover
+        {
+            background-color: #E1FFEF;
+            color: #00C157;
+            border: 1px solid #00C157;
+        }
+         
+        .paging span
+        {
+  color: #999999;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  cursor: not-allowed;
+        }
+         
+        tr.paging
+        {
+            background: none !important;
+        }
+         
+        tr.paging tr
+        {
+            background: none !important;
+        }
+        tr.paging td
+        {
+            border: none;
+        }
